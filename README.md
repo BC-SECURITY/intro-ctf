@@ -3,7 +3,7 @@
 ## Build and Run Docker Container
 1. Build the Docker image: `docker build -t mini-ctf .`
 2. Run the Docker container: `docker run -d -p 8080:80 mini-ctf`
-3. Access the web challenge in your browser at http://localhost:8080.
+3. Access the web challenge in your browser at http://localhost:8080 or through the console with `docker exec -it <container_id> /bin/bash`
 
 ## Challenge Walkthroughs
 ### Web Exploitation
